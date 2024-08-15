@@ -12,3 +12,7 @@ variable "tags" {
   default = {}
   type = map
 }
+
+output "main" {
+  value = "aws_instance.module"
+}
